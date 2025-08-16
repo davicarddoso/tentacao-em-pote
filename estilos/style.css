@@ -5,7 +5,6 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    height: 200vh;
 }
 header {
     background-image: url(../imagens/bakery.jpg);
@@ -16,12 +15,17 @@ header {
     flex-flow: row nowrap;
     align-items: center;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.425);
+    background-color: white;
+    
 }
-
+div#Menu {
+    background-color: white;
+}
 div#Menu ul {
     position: fixed;
     list-style: none;
     width: 90vw;
+
 }
 span#logotipo{
     background-image: url(../imagens/logo.png);
@@ -62,17 +66,71 @@ header > h1 {
     padding: 30px;
     width: 300px;
     height: 200px;
-    display: inline-block;
+    display: block;
     margin: 0;
     color: white;
     font-family: "Rubik";
     font-size: 40px;
     font-weight: bold;
+    
+    
+  
 }
+
 header > p {
-    display: inline-block;
+    display: block;
     font-family: 'poppins';
     font-weight: bold;
     color: white;
+}
+
+
+.quadro {
+    margin: -2px 0px 0px -10px;
+  width: 87vw;
+  background-color: rgba(255, 255, 255, 0.014);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.195);
+  padding: 9px;
+  border-radius: 10px; 
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.113);
+}
+  
+  section.branco {
+
+  }
+  #titulo {
+    margin: 10px;
+    font-family: Rubik;
+    font-weight: 500;
+    width: 254px;
+    height: 77px;
+  }
+  div.texto {
+
+  }
+
+section.azul {
+    background-color: #556f7a;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 255, 255);
+}
+section.azul > div > p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   margin-right: 25px;
+    text-align: justify;
+    margin-left: 25px;
+    color: rgb(255, 255, 255);
+}
+#imagem01 {
+    background-image: url(../imagens/mini-bolo.jpg);
+    background-size: cover;
+    width: 90vw;
+    height: 30vh;
+    border-radius: 15px;
     
+    margin: 10px 0px 1px -6px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.377);
 }
